@@ -88,6 +88,15 @@ class App:
                 r, c = player.head
                 player.bullet = Bullet(r, c, player.facing)
                 self.move(player.bullet, player.bullet.facing)
+                for enemy in self.state.enemies:
+                    if player.bullet:
+                        if self.did_hit(player.bullet, enemy):
+                            player.bullet = None
+                            self.state.enemies.remove(enemy)
+                            break
+                if player.bullet and (not self.in_bounds(player.bullet.r, player.bullet.c, player.bullet.max_x, player.bullet.max_y) or player.bullet.speed == 0):
+                    player.bullet = None
+
 
         for _ in range(2):
             for bullet in self.state.enemy_bullets:
