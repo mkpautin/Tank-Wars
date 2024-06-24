@@ -39,4 +39,4 @@ Phase 2 is the highest phase fully accomplished in this project.
 - Developed the sprites used accross the game
 
 ## Video Demo
-[Watch Our Game Demo Here](https://drive.google.com/drive/folders/1F4t8cLuDGVUMNNGxhviKGbvWI5kdP8AH?usp=sharing) - This is a publicly available link to our video demo on Google Drive.
+[Watch Our Game Demo Here](https://drive.google.com/drive/folders/1UZPM_u7igm65V61H1OmUh8WPfTkFiQxi?usp=drive_link) - This is a publicly available link to our video demo on Google Drive.
